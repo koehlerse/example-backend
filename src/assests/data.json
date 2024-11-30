@@ -1,0 +1,68 @@
+{
+  "brands": [
+    {
+      "name": "TechNova",
+      "founded": "2001",
+      "products": [
+        {
+          "name": "NovaPhone X",
+          "rating": 4.7,
+          "price": 999.99
+        },
+        {
+          "name": "NovaPad 10",
+          "rating": 4.5,
+          "price": 499.99
+        }
+      ]
+    },
+    {
+      "name": "EcoGear",
+      "founded": "2010",
+      "products": [
+        {
+          "name": "EcoBackpack",
+          "rating": 4.3,
+          "price": 89.99
+        },
+        {
+          "name": "EcoBottle Pro",
+          "rating": 4.8,
+          "price": 29.99
+        }
+      ]
+    },
+    {
+      "name": "Speedster",
+      "founded": "1995",
+      "products": [
+        {
+          "name": "Speedster Racer 3000",
+          "rating": 4.6,
+          "price": 150.0
+        },
+        {
+          "name": "Speedster Helmet X",
+          "rating": 4.2,
+          "price": 75.0
+        }
+      ]
+    },
+    {
+      "name": "HomeEase",
+      "founded": "2015",
+      "products": [
+        {
+          "name": "EaseCook Pro",
+          "rating": 4.9,
+          "price": 249.99
+        },
+        {
+          "name": "EaseVac 300",
+          "rating": 4.4,
+          "price": 149.99
+        }
+      ]
+    }
+  ]
+}

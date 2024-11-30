@@ -1,10 +1,17 @@
 import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
+import { BrandsService } from './app.service';
+import { Testen } from './testen';
+import { ScheduleModule } from '@nestjs/schedule';
+import { CacheModule } from '@nestjs/cache-manager';
 
 @Module({
-  imports: [],
-  controllers: [AppController],
-  providers: [AppService],
+  imports: [
+    ScheduleModule.forRoot(),
+    CacheModule.register(),
+  ],
+  providers: [
+    BrandsService,
+    Testen
+  ],
 })
 export class AppModule {}
